@@ -16,4 +16,8 @@
   --black-color: black;
 }
 
+.page-footer p {
+  color: var(--paragraph-color);
+}
+
 /*# sourceMappingURL=style.css.map */
