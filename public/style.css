@@ -12,8 +12,18 @@
   --dividers-color: #E9982D;
   --light-green-color: #DFE5C1;
   --paragraph-color: #333333;
-  --red-letters-color:#491E0D;
+  --red-letters-color: #491E0D;
   --black-color: black;
+}
+
+* {
+  font-family: Merriweather, normal, serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Caveat, normal;
 }
 
 .page-footer p {
