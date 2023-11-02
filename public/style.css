@@ -20,4 +20,8 @@
   color: var(--paragraph-color);
 }
 
+svg {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
