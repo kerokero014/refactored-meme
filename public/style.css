@@ -30,6 +30,24 @@ h3 {
   color: var(--paragraph-color);
 }
 
+html a {
+  font-size: 20px;
+  color: var(--dividers-color);
+  text-decoration: none;
+}
+html a:link {
+  text-decoration: none;
+  color: var(--dividers-color);
+}
+html a:hover {
+  text-decoration: none;
+  color: gray;
+}
+html a:visited {
+  text-decoration: none;
+  color: var(--dividers-color);
+}
+
 svg {
   display: none;
 }
