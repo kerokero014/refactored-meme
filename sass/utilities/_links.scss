@@ -1,0 +1,30 @@
+html {
+  a {
+    color: var(--red-letters-color);
+    text-decoration: none;
+    font-weight: 900;
+
+    &.active {
+      text-decoration: none;
+      color: var(--red-letters-color);
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: gray;
+    }
+
+    &:visited {
+      text-decoration: none;
+      color: var(--red-letters-color);
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ol {
+    list-style: none;
+  }
+}
