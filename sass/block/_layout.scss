@@ -1,0 +1,14 @@
+main {
+  columns: 2;
+  margin: 16px;
+
+  .container {
+    background-color: #DFE5C1;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  main {
+    columns: 1;
+  }
+}
