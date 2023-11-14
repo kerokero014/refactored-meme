@@ -4,3 +4,6 @@
 *.log
 .htaccess
 node_modules/
+.idea
+.DS_Store
+style.css.map

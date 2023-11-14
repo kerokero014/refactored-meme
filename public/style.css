@@ -26,6 +26,18 @@ h3 {
   font-family: Caveat, normal;
 }
 
+main {
+  columns: 2;
+}
+main .container {
+  background-color: #DFE5C1;
+}
+
+@media screen and (max-width: 420px) {
+  main {
+    columns: 1;
+  }
+}
 .page-footer p {
   color: var(--paragraph-color);
 }
@@ -33,5 +45,3 @@ h3 {
 svg {
   display: none;
 }
-
-/*# sourceMappingURL=style.css.map */
