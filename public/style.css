@@ -44,6 +44,32 @@ main .container {
   color: var(--paragraph-color);
 }
 
+html a {
+  color: var(--red-letters-color);
+  text-decoration: none;
+  font-weight: 900;
+}
+html a.active {
+  text-decoration: none;
+  color: var(--red-letters-color);
+}
+html a:hover {
+  text-decoration: none;
+  color: gray;
+}
+html a:visited {
+  text-decoration: none;
+  color: var(--red-letters-color);
+}
+html ul {
+  list-style: none;
+}
+html ol {
+  list-style: none;
+}
+
 svg {
   display: none;
 }
+
+/*# sourceMappingURL=style.css.map */
