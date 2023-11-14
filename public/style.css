@@ -8,6 +8,12 @@
   margin: 0;
 }
 
+html {
+  background-image: url("../public/img/cool-paper.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 :root {
   --paragraph-background: #FDF1DB;
   --dividers-color: #E9982D;
