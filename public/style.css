@@ -46,8 +46,15 @@ main .container {
     columns: 1;
   }
 }
-.page-footer p {
-  color: var(--paragraph-color);
+footer {
+  background-color: var(--paragraph-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 html a {
