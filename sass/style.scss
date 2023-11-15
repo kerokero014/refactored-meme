@@ -24,6 +24,10 @@ $breakpoint:680px;
 *{
     font-family:'bookman-jf-pro';
 }
+
+html{
+    overflow-x:hidden;
+}
 @mixin tableBorder{
     background-image:url('images/TableBorder/TopRight.png'),url('images/TableBorder/BottomRight.png'),url('images/TableBorder/BottomLeft.png'),url('images/TableBorder/TopLeft.png'),url('images/TableBorder/Bottom.png'),url('images/TableBorder/Left.png'),url('images/TableBorder/Right.png'),url('images/TableBorder/Top.png');
     background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,repeat-x,repeat-y,repeat-y,repeat-x;

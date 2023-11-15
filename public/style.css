@@ -17,22 +17,16 @@
   --black-color: black;
 }
 
-* {
-  font-family: Merriweather, normal, serif;
-}
-
-h1,
-h2,
-h3 {
-  font-family: Caveat, normal;
-}
-
 .page-footer p {
   color: var(--paragraph-color);
 }
 
 * {
   font-family: "bookman-jf-pro";
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body::before {
