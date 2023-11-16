@@ -21,6 +21,19 @@
   color: var(--paragraph-color);
 }
 
+html a {
+  color: var(--red-letters-color);
+}
+html:hover {
+  color: var(--red-letters-color);
+}
+html:visited {
+  color: var(--red-letters-color);
+}
+html:active {
+  color: var(--red-letters-color);
+}
+
 * {
   font-family: "bookman-jf-pro";
 }

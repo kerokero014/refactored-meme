@@ -1,0 +1,17 @@
+html {
+    a {
+        color: var(--red-letters-color);
+    }
+
+    &:hover {
+        color: var(--red-letters-color);
+    }
+
+    &:visited {
+        color: var(--red-letters-color);
+    }
+
+    &:active {
+        color: var(--red-letters-color);
+    }
+}
