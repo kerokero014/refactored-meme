@@ -1,3 +1,6 @@
+$biggerFont: 17px;
+$breakpoint:680px;
+
 html {
     a {
         color: var(--red-letters-color);
@@ -14,4 +17,75 @@ html {
     &:active {
         color: var(--red-letters-color);
     }
+}
+
+#styles {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1047px;
+    width: 90%;
+    flex-direction: row-reverse;
+
+    & div {
+        background-color: #dce5c1;
+        padding: 1em;
+        font-size: $biggerFont;
+        text-align: center;
+
+        & ul {
+            list-style: none;
+        }
+    }
+    &::after{
+        content: " ";
+        display: flex;
+        height: 30rem;
+        width: 30rem;
+        background-image: url(images/haracter.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: -20%;
+        float:left;
+        @media(max-width:$breakpoint) {
+            margin-right:0;
+            background-image:url(images/haracter.png);
+            margin:2em;
+            flex-direction:column;
+            align-items:center;
+        }
+    }
+    @media(max-width:$breakpoint) {
+        flex-direction:column;
+        align-items:center;
+    }
+}
+
+.page-footer{
+    color: var(--paragraph-color);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+     ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &::after{
+        content: " ";
+        display: block;
+        height: 15rem;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: -20%;
+    }
+    @media(max-width:$breakpoint) {
+        font-size: medium;
+        /*background-image:url(images/dd-footer-background-picture.png);*/
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
 }
