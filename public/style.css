@@ -79,33 +79,27 @@ html:active {
 }
 
 .page-footer {
-  color: var(--paragraph-color);
-  padding: 10px;
+  font-size: 1em;
+  padding: 40px 0;
   text-align: center;
-  font-size: 1.5em;
-  margin-top: 10px;
+}
+.page-footer p {
+  margin-bottom: 15px;
+}
+.page-footer a {
+  color: var(--red-letters-color);
+  text-decoration: none;
+}
+.page-footer a:hover {
+  text-decoration: underline;
 }
 .page-footer ul {
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding: 0;
 }
-.page-footer::after {
-  content: " ";
-  display: block;
-  height: 15rem;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-right: -20%;
-}
-@media (max-width: 680px) {
-  .page-footer {
-    font-size: medium;
-    /*background-image:url(images/dd-footer-background-picture.png);*/
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
+.page-footer ul li {
+  display: inline;
+  margin: 0 10px;
 }
 
 * {
