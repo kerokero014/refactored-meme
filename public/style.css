@@ -64,6 +64,17 @@
   }
 }
 
+.skip-link {
+  margin: 0 35px;
+  font-size: 25px;
+}
+@media screen and (max-width: 680px) {
+  .skip-link {
+    margin: 15px 15px;
+    font-size: 18px;
+  }
+}
+
 html a {
   color: var(--red-letters-color);
 }
@@ -90,6 +101,7 @@ html:active {
   padding: 1em;
   font-size: 17px;
   text-align: center;
+  border-radius: 12px;
 }
 #styles div ul {
   list-style: none;
@@ -267,6 +279,7 @@ h4 {
 }
 .profile div {
   background-color: #dce5c1;
+  border-radius: 12px;
   padding: 1em;
 }
 .profile div ul {

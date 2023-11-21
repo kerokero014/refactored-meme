@@ -1,5 +1,15 @@
 $biggerFont: 17px;
 $breakpoint: 680px;
+$smallerFont: 18px;
+
+.skip-link {
+    margin: 0 35px;
+    font-size: 25px;
+    @media screen and (max-width: $breakpoint) {
+        margin: 15px 15px;
+        font-size: $smallerFont;
+    }
+}
 
 html {
     a {
@@ -26,13 +36,14 @@ html {
     max-width: 1047px;
     width: 90%;
     flex-direction: row-reverse;
+    
 
     & div {
         background-color: #dce5c1;
         padding: 1em;
         font-size: $biggerFont;
         text-align: center;
-
+        border-radius: 12px;
         & ul {
             list-style: none;
         }
