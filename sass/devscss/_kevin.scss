@@ -32,20 +32,47 @@ html {
 #styles {
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 1rem auto;
     max-width: 1047px;
     width: 90%;
     flex-direction: row-reverse;
-    
-
+    align-items: center;
     & div {
-        background-color: #dce5c1;
+        background-image:linear-gradient(transparent 8px, #dce5c1 8px, #dce5c1 60%, transparent 60%),
+        linear-gradient(0deg, transparent 8px, #dce5c1 8px, #dce5c1 60%, transparent 60%);
         padding: 1em;
         font-size: $biggerFont;
         text-align: center;
-        border-radius: 12px;
+        height:50%;
+        position:relative;
         & ul {
             list-style: none;
+        }
+        &::before{
+            content:" ";
+            display:block;
+            position:absolute;
+            top:0;
+            right:0;
+            left:0;
+            height:1rem;
+            background-image:url('images/BoxTopper/top-left.svg'),url('images/BoxTopper/top-right.svg');
+            background-repeat:no-repeat;
+            background-position:0% 0%, 100% 0%;
+            background-size:40rem;
+        }
+        &::after{
+            content:" ";
+            display:block;
+            position:absolute;
+            bottom:0;
+            right:0;
+            left:0;
+            height:1rem;
+            background-image:url('images/BoxTopper/bottom-left.svg'),url('images/BoxTopper/bottom-right.svg');
+            background-repeat:no-repeat;
+            background-position:0% 100%, 100% 100%;
+            background-size:40rem;
         }
     }
 
@@ -57,19 +84,16 @@ html {
         background-image: url(images/haracter.png);
         background-repeat: no-repeat;
         background-size: 100%;
-        margin-right: -20%;
         float: left;
 
-        @media(max-width:$breakpoint) {
-            margin-right: 0;
-            background-image: url(images/haracter.png);
+        @media(max-width:860px) {
             margin: 2em;
             flex-direction: column;
             align-items: center;
         }
     }
 
-    @media(max-width:$breakpoint) {
+    @media(max-width:860px) {
         flex-direction: column;
         align-items: center;
     }
