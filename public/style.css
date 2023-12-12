@@ -51,6 +51,7 @@
   background-color: #dce5c1;
   display: inline;
   margin: 0 15px;
+  border-radius: 5px;
 }
 @media (max-width: 680px) {
   .page-footer {
